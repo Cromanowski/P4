@@ -1,0 +1,64 @@
+
+/* header styles */
+header{
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    size: 1%;
+    font-stretch: expanded;
+    padding-bottom: 0%;
+    text-shadow: 2px 2px purple;
+    color:white;
+    float: top;
+}
+
+/* logo styles */
+
+#logo { 
+    float: left;
+    border-radius: 40%;
+}
+
+/* nav styles */
+
+#nav_menu ul li a {
+    display: block;
+    text-align: center;
+    background-color: rgb(242,179,255);
+    color:black;
+    font-weight: bold;
+    padding: 1em;
+    size: 200%;
+    outline-color: red;
+    outline-offset: 1in;
+
+}
+
+
+#nav_menu ul li a:hover {
+    color: white;
+}
+
+#nav_menu li {
+    float: left; 
+}
+
+#nav_menu a.current {
+	color: yellow;
+}
+
+#nav_menu ul ul {
+    display: none;
+    top: 100%;   
+}
+
+#nav_menu ul li:hover > ul {
+	display: block;
+    text-align: center;
+    align-self: center;
+    float:left;
+}
+
+#nav_menu li {
+    display: inline;
+}
