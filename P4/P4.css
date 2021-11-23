@@ -62,3 +62,13 @@ header{
 #nav_menu li {
     display: inline;
 }
+
+#navbar-brand {
+    float:left;
+    height: 150%;
+    position:absolute;
+}
+
+#logo {
+    position: relative;
+}
