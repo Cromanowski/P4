@@ -1,91 +1,76 @@
+<!--- Charles Romanowski IS117101 ---> 
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Contact</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-          crossorigin="anonymous">
-        <link rel="stylesheet" href="P4.css">
+<body id='page'>
+	<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<h1>
+			<img id ="logo" src= "images/betsy.PNG" alt = "An image of my poodle Betsy is displayed" height= 100>
+			<a id="logo-image" href="Homepage.html" height: 8>Logo</a>
+			<a href="homepage.html" class="current"></a>
+		</h1>
 
-</head>
-<body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="row">
-            <nav class="navbar navbar-expand-md
-                    justify-content-start
-                    bg-dark navbar-dark
-                    col-12">
+		<title>Betsy Poodles</title>
+		<link rel="stylesheet" href="P4.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<div id = container>
+	<body>
+		<div id = "content">
+		<header>
+			Betsy Poodle Information
+		</header>
+		<nav id="nav_menu">
+			<ul >
+				<li><a href="homepage.html" >Home</a></li>
+				<li><a href="history.html">History of poodles</a></li>
+				<li><a href="types.html">Types of poodles</a><ul>
+                    <li><a href="colors.html">Colors</a></li>
+                    <li><a href="breeds.html">Breeds</a></li>
+					</ul>
+				</li>
+				<li><a href="fun-facts.html">Fun facts</a></li>
+				<li><a href="contact.html"class="current"> Contact page</a>	
+				</li>
+			</ul>
+			<div></div>
+			
+			
+            <div class="form">
+                <div class="row">
+                  <form action="">
+                      <div class="form-group">
+                          <label for="firstname">First Name:</label>
+                          <input type="text" class="form-control" id="firstname"
+                                 placeholder="First name" name="firstname">
+                      </div>
+                      <div class="form-group">
+                          <label for="lastname">Last Name:</label>
+                          <input type="text" class="form-control" id="lastname"
+                                 placeholder="Last name" name="lastname">
+                      </div>
+                      <div class="form-group">
+                          <label for="email">Email:</label>
+                          <input type="email" class="form-control" id="email"
+                                 placeholder="Enter email" name="email">
+                      </div>
+                      <div class="form-group form-check">
+                          <label class="form-check-label">
+                              <input class="form-check-input"
+                                     type="checkbox" name="subscribe"> Subscribe
+                          </label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+              </row>
+		</div>
+	</div>
+	</body>
+	</div>
 
-                <!-- Brand -->
-                <a class="navbar-brand" href="Homepage.html">Logo</a>
-                <!-- Responsive Button for the smaller menu -->
-                <button class="navbar-toggler" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul>
-                        <li><a href="homepage.html" class="current">Home</a></li>
-                        <li><a href="history.html">History of poodles</a></li>
-                        <li><a href="types.html">Types of poodles</a><ul>
-                                <li><a href="#">Colors</a></li>
-                                <li><a href="#">Breeds</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="tickets.html">Fun facts</a></li>
-                        <li><a href="contact.html"> Contact page</a>	
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        <div class="container">
-          <div class="row">
-            <form action="">
-                <div class="form-group">
-                    <label for="firstname">First Name:</label>
-                    <input type="text" class="form-control" id="firstname"
-                           placeholder="First name" name="firstname">
-                </div>
-                <div class="form-group">
-                    <label for="lastname">Last Name:</label>
-                    <input type="text" class="form-control" id="lastname"
-                           placeholder="Last name" name="lastname">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email"
-                           placeholder="Enter email" name="email">
-                </div>
-                <div class="form-group form-check">
-                    <label class="form-check-label">
-                        <input class="form-check-input"
-                               type="checkbox" name="subscribe"> Subscribe
-                    </label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </row>
-</div>
-        </div>
- <footer class="footer page-footer font-small ">
-     <div class="container">
-        <div class="row">
-            <span class="text-muted">&copy; Art Hendela, 2021 |  Terms Of Use  |  Privacy Statement</span>
-        </div>
-     </div>
-  </footer>
-</div>
-
-
-    <!-- Javascript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous">
-</script>
-
+		<footer class="footer">
+			<div class="container">
+			  <p class="text-muted">&copy; Charles Romanowski, 2021</p>
+			</div>
+		</footer>
 </body>
-</html>
